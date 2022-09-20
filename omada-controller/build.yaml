@@ -1,0 +1,4 @@
+build_from:
+  aarch64: "mbentley/omada-controller:5.5-arm64"
+  amd64: "mbentley/omada-controller:5.5-chromium"
+squash: false

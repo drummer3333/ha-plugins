@@ -1,0 +1,22 @@
+name: TP-Link Omada Controller
+version: "1.0.0"
+slug: tp-omada-c
+description: TP-Link Omada Controller to control TP-Link Omada Hardware
+url: "https://github.com/drummer3333/ha-plugins/ommada-controller"
+arch:
+  - aarch64
+  - amd64
+webui: https://[HOST]:[PORT:8043]/
+watchdog: https://[HOST]:[PORT:8043]/
+options: {}
+schema: {}
+ports:
+  8088/tcp: 8088
+  8043/tcp: 8043
+  29810/udp: 29810
+  29811/tcp: 29811
+  29812/tcp: 29812
+  29813/tcp: 29813
+  29814/tcp: 29814
+backup: cold
+host_network: true
